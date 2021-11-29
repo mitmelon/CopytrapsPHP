@@ -6,7 +6,7 @@
 Use composer to install
 
 ```php
-composer require mitmelon/CopytrapsPHP
+composer require mitmelon/copytraps_php
 ```
 
 ### Usage :

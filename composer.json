@@ -1,0 +1,29 @@
+{
+    "name": "mitmelon/copytraps_php",
+    "description": "Explore our guides and examples to integrate Copytraps.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manomite",
+            "email": "developer@manomite.net"
+        }
+    ],
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0",
+        "monolog/monolog": "^1.24",
+        "php-http/client-implementation": "*",
+        "php-http/guzzle7-adapter": "*",
+        "php-http/discovery": "*",
+        "php-http/message": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CopytrapsPHP\\": [
+                "src/"
+            ]
+        }
+    }
+}
